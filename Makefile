@@ -13,7 +13,10 @@ run:
 	uv run fastapi dev
 
 run-ot:
-	uv run fastapi run open.py
+	uv run fastapi dev open.py
+
+run-os:
+	uv run fastapi dev os-exporter.py
 
 lint:
 	uv run ruff format .

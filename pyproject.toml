@@ -1,0 +1,16 @@
+[project]
+name = "asig"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "appsignal>=1.4.0",
+    "fastapi[standard]>=0.115.5",
+    "opentelemetry-instrumentation-fastapi>=0.49b2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+]

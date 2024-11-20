@@ -12,6 +12,9 @@ install:
 run:
 	uv run fastapi dev
 
+run-ot:
+	uv run fastapi run open.py
+
 lint:
 	uv run ruff format .
 	uv run ruff check --fix  .
